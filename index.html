@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakao i</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/reset_kakaoi.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <!--gnb -->
+
+        <nav class="gnb">
+            <ul class="gnb_menu">
+                <li class="gnb_logo"><a href="index.html"> kakao i</a></li>
+                <li class="gnb_menu_item"><a href="introduce.html">소개</a></li>
+                <li class="gnb_menu_item"><a href="service.html">서비스</a></li>
+
+                <li class="gnb_menu_item"><a href="" class="menu_link_product">제품</a></li>
+
+                <li class="gnb_menu_item"><a href="" class="menu_link_partner">파트너</a>
+                </li>
+            </ul>
+
+            <ul class="sub_menu_product">
+                <li class="sub_logo"><a href="#"><img src="img/product_1.png" alt=""></a></li>
+                <li class="sub_logo"><a href="#"><img src="img/product_2.png" alt=""></a></li>
+                <li class="sub_logo"><a href="#"><img src="img/product_3.png" alt=""></a></li>
+                <li class="sub_logo"><a href="#"><img src="img/product_4.png" alt=""></a></li>
+                <li class="sub_logo"><a href="#"><img src="img/product_5.png" alt=""></a></li>
+            </ul>
+
+            <ul class="sub_menu_partner">
+                <li class="sub_menu_item"><a href="#">카카오톡</a></li>
+                <li class="sub_menu_item"><a href="#">자동차</a></li>
+                <li class="sub_menu_item"><a href="#">내비게이션</a></li>
+                <li class="sub_menu_item"><a href="#">스마트악세서리</a></li>
+                <li class="sub_menu_item"><a href="#">디스플레이</a></li>
+                <li class="sub_menu_item"><a href="#">스마트홈</a></li>
+            </ul>
+
+            <ul class="gnb_link">
+                <li>
+                    <a class="gnb_link_items" href="">AI 알고리즘 윤리</a>
+                </li>
+                <li>
+                    <a href="">
+                        <img class="gnb_link_icon" src="img/link_white.svg">
+                        <span class="gnb_link_items">제휴문의</span>
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <!-- Mobile gnb(max767px) -->
+
+        <nav class="gnb_m_wrap">
+            <div class="gnb_m">
+                <div class="gnb_m_nav">
+                    <div>
+                        <a href="">
+                            <img class="gnb_m_logo" src="img/logo_white.png">
+                        </a>
+                    </div>
+                    <div class="gnb_m_burger">
+                        <div class="gnb_line1"></div>
+                        <div class="gnb_line2"></div>
+                        <div class="gnb_line3"></div>
+                    </div>
+                </div>
+                <div class="gnb_m_hidden">
+                    <ul class="gnb_m_items">
+                        <li><a href="http://127.0.0.1:5500/index.html">소개</a></li>
+                        <li><a href="">서비스</a></li>
+                        <li><a href="https://kakao.ai/product/minihexa">제품</a></li>
+                        <li><a href="https://kakao.ai/partner">파트너</a></li>
+                    </ul>
+                    <div class="gnb_m_info">
+                        <strong>Share</strong>
+                        <ul class="gnb_m_share">
+                            <li class="gnb_m_share_icons">
+                                <a href="https://accounts.kakao.com/login?continue=https://sharer.kakao.com/talk/friends/picker/shortlink/TE1WqEX%253EIeK%255B9j%253A1ZytW5Jo2U6O2YW%253AaJ742XL%253BAaMW%253EnBdVA%253Ay99eWB%253BjdQeof%253F"
+                                    target='_blank'>
+                                    <img src="img/icon_kakaotalk.svg">
+                                </a>
+                            </li>
+                            <li class="gnb_m_share_icons">
+                                <a href="https://accounts.kakao.com/login/kakaostory?continue=https%3A%2F%2Fstory.kakao.com%2Fshare%3Furl%3Dhttps%3A%2F%2Fkakao.ai%2F"
+                                    target='_blank'>
+                                    <img src="img/icon_kakaostory.png">
+                                </a>
+                            </li>
+                            <li class="gnb_mshare_icons">
+                                <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=911640245992316&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Ffeed%3Fapp_id%3D911640245992316%26display%3Dpopup%26link%3Dhttps%253A%252F%252Fkakao.ai%252F&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=ko_KR"
+                                    target='_blank'>
+                                    <img src="img/icon_facebook.svg">
+                                </a>
+                            </li>
+                            <li class="gnb_m_share_icons">
+                                <a href="https://twitter.com/intent/tweet?text=%27%EC%B9%B4%EC%B9%B4%EC%98%A4i%27&url=https://kakao.ai/"
+                                    target='_blank'>
+                                    <img src="img/icon_twitter.svg">
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="gnb_m_copyright">
+                            <small>© <a href="https://www.kakaoenterprise.com/" target='_blank'>Kakao
+                                    Enterprise.</a><br> The Kakao i is a trademark of Kakaocorp.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--main-->
+
+    <main>
+
+        <!--hero-->
+
+        <section id="hero">
+            <div class="hero_wrap">
+                <div class="hero">
+                    <div class="hero_slide" id="hero_slide_1"></div>
+                    <div class="hero_slide" id="hero_slide_2"></div>
+                    <ul class="hero_slide_nav">
+                        <li class="hero_slide_button one" onclick="slideChange(0)"></li>
+                        <li class="hero_slide_button two" onclick="slideChange(1);"></li>
+                    </ul>
+                </div>
+                <div class="hero_box">
+
+                    <h1 class="hero_title">더 작고 똑똑한<br>
+                        스마트 스피커<br>
+                        미니헥사</h1>
+                    <p class="hero_link"><a href="">미니헥사 더 알아보기</a></p>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Ai-->
+
+        <section id="info feature">
+            <div class="ai_wrap">
+                <ul class="ai">
+
+                    <!-- Ai 1 -->
+                    <li class="ai_1">
+
+                        <p class="ai_title"><a href="">kakao i</a></p>
+                        <h3 class="ai_subhead">
+                            새로운 내일과 일상의 변화를<br>
+                            가져오는 인공지능</h3>
+                        <span class="ai_link"><a href=""> 더보기 </a></span>
+                    </li>
+
+                    <!-- Ai 2 -->
+                    <li class="ai_2">
+                        <p class="ai_2_title"><a href=""> Hey kakao</a></p>
+                        <h3 class="ai_2_subhead">언제나 어디서나 내 곁에 <br>헤이 카카오</h3>
+                        <span class="ai_link"><a href="">더보기 </a></span>
+                    </li>
+                </ul>
+            </div>
+
+            <!--video-->
+
+            <div class="video_wrap">
+                <video class="bg_video" width="100%" height="auto" autoplay="" loop="" muted="" poster="/img/video.jpg">
+                    <source src="https://t1.kakaocdn.net/kakaoi_brand/resource/1599697869465.mp4" type="video/mp4" />
+                </video>
+
+                <!-- <div class=video_text_wrap> -->
+
+                <p class="video_title">헤이카카오, 스몰톡</p>
+
+
+                <!-- </div> -->
+            </div>
+        </section>
+        <!--intro-->
+
+        <section id="info_intro">
+
+            <div class="intro_wrap">
+                <h4 class="intro_title">다양한 명령어</h4>
+
+                <div class="intro_text">
+                    <p class="intro_text_item">
+                        언제나<em class="hey">헤이카카오</em><br>
+                        라고 부르고 이렇게 말해보세요.
+                    </p>
+                    <span class="intro_text_more">Things you can ask Heykakao</span>
+                    <img class="intro_arrow" src="img/arrow_circle.svg" alt="">
+                </div>
+                <div class="right_kakao">
+                    <img src="img/kakao.png" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!---------->
+        <section id="info_inside">
+
+            <div class="info_wrap">
+
+                <div class="wrap_title">
+                    <h4 class="title_con">우리가 함께 만드는 가치</h4>
+                    <a class="title_link" href=""> 더 알아보기 > </a>
+                </div>
+
+                <!--사진+글-->
+                <ul class="list_inside">
+
+                    <!--car-->
+                    <li class="list_1">
+                        <img src="img/car.jpg " alt="">
+                        <strong class="list_title">인터페이스의 혁신을 보여주는 카카오i 차량 음성인식</strong>
+                        <p class="list_text">
+                            카카오 i의 음성인식 기술과 방대한 정보데이터를 기반으로, 말로 더 쉽고 편리한 드라이빙 경험을 제공합니다. 주행 중에도 말로 쉽고 편하게 차량 제어, 길
+                            찾기는 물론, 카카오톡, 뉴스, 게임 등 다양한 서비스를 이용해보세요.
+                        </p>
+                    </li>
+
+                    <!--bicycle-->
+                    <li class="list_2">
+                        <img src="img/bicycle.jpg" alt="">
+                        <strong class="list_title">인터페이스의 혁신을 보여주는 카카오i 차량 음성인식</strong>
+                        <p class="list_text">
+                            카카오 i가 생활에 필요한 액세서리들과 만나면 또 다른 가치가 만들어집니다. 헤이카카오와 연동되는 세나 스마트 헬멧으로 더욱 안전한 라이딩을 즐길 수 있는
+                            것처럼요.
+                    </li>
+
+
+                    <!--tv-->
+
+                    <li class="list_3">
+                        <img src="img/tv.jpg" alt="">
+                        <strong class="list_title">새로운 라이딩 경험을 선사하는 헤이카카오를 품은 스마트 헬멧</strong>
+                        <p class="list_text">
+                            카카오미니가 TV및 셋탑박스와 같은 제품과 연동되어, 말 한마디로 채널을 변경하고, 음량을 조절을 하는 등 일상 속 말로 하는 편리함을 느껴보세요.
+                            날씨,뉴스,환율,정보검색 등 다양한 콘텐츠를 이용할 수 있어요.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <hr size="1px" color="#dedede">
+
+
+    <!-- Footer -->
+    <footer class="footer_1">
+        <div class="footer_left">
+            <a href=""><img src="img/logo.png"></a>
+            <div class="info_policy">
+                <ul class="policy_list">
+                    <li><a href="https://mk.kakaocdn.net/dn/eva_res/heykakao/terms/public/v1/heykakao_terms.html"
+                            target="_blank">서비스 약관</a></li>
+                    <li><a href="https://www.kakao.com/policy/privacy" target="_blank">개인정보 취급방침</a></li>
+                    <li><a href="https://with.kakao.com/kakaoi/proposition" target="_blank">제휴제안 문의</a></li>
+                    <li><a href="https://cs.kakao.com/" target="_blank">고객센터</a></li>
+                </ul>
+                <span class="copyright">© <a href="https://www.kakaoenterprise.com/" target="_blank">Kakao
+                        Enterprise.</a> The Kakao i is a trademark of Kakaocorp.</span>
+            </div>
+        </div>
+        <div class="footer_right">
+            <div class="info_related">
+                <ul class="related_list">
+                    <li>
+                        <div class="circle"></div>
+                        <a href="https://www.kakaoenterprise.com/" target="_blank" onmouseover="circleShow(0);"
+                            onmouseout="circleNone(0);">Kakao Enterprise</a>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <a href="https://tech.kakaoenterprise.com/" target="_blank" onmouseover="circleShow(1);"
+                            onmouseout="circleNone(1); ">Kakao Enterprise Teck Blog</a>
+                    </li>
+                    <li>
+                        <div class="circle"></div>
+                        <a href="https://i.kakao.com/" target="_blank" onmouseover="circleShow(2);"
+                            onmouseout="circleNone(2);">Kakao i Developers</a>
+                    </li>
+                </ul>
+                <ul class="share">
+                    <strong>Share</strong>
+                    <li class="share_icons">
+                        <a href="https://accounts.kakao.com/login?continue=https://sharer.kakao.com/talk/friends/picker/shortlink/CdO9%253CAh4Za3%255BmtomSf%252Fqvh30%2560METuBS6ci%253E%253FI%255B%252FboTa3VpXI%252FI3KE_vs_%252FC%253C%253FWnM"
+                            target="_blank">
+                            <img src="img/icon_kakaotalk.svg">
+                        </a>
+                    </li>
+                    <li class="share_icons">
+                        <a href="https://accounts.kakao.com/login/kakaostory?continue=https%3A%2F%2Fstory.kakao.com%2Fshare%3Furl%3Dhttps%3A%2F%2Fkakao.ai%2F"
+                            target="_blank">
+                            <img src="img/icon_kakaostory.png">
+                        </a>
+                    </li>
+                    <li class="share_icons">
+                        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=911640245992316&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Ffeed%3Fapp_id%3D911640245992316%26display%3Dpopup%26link%3Dhttps%253A%252F%252Fkakao.ai%252F&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=ko_KR"
+                            target="_blank">
+                            <img src="img/icon_facebook.svg">
+                        </a>
+                    </li>
+                    <li class="share_icons">
+                        <a href="https://twitter.com/intent/tweet?text=%27%EC%B9%B4%EC%B9%B4%EC%98%A4i%27&url=https://kakao.ai/"
+                            target="_blank">
+                            <img src="img/icon_twitter.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <button class="btn_top">
+                <div class="circle"></div>
+                <span onmouseover="circleShow(3);" onmouseout="circleNone(3);">Back to top</span>
+            </button>
+
+        </div>
+    </footer>
+
+    <!-- footer_m -->
+    <footer class="footer_m">
+        <div class="footer_m_logo">
+            <a href=""><img src="img/logo_m.png"></a>
+        </div>
+        <div class="info_m_1">
+            <ul class="policy_list_m">
+                <li><a href="https://mk.kakaocdn.net/dn/eva_res/heykakao/terms/public/v1/heykakao_terms.html"
+                        target="_black">서비스 약관</a></li>
+                <li><a href="https://www.kakao.com/policy/privacy" target="_black">개인정보 취급방침</a></li>
+                <li><a href="https://with.kakao.com/kakaoi/proposition" target="_black">제휴제안 문의</a></li>
+                <li><a href="https://cs.kakao.com/" target="_black">고객센터</a></li>
+            </ul>
+            <div class="share_m">
+                <strong>Share</strong>
+                <ul class="share_m_ul">
+                    <li class="share_icons_m">
+                        <a href="https://accounts.kakao.com/login?continue=https://sharer.kakao.com/talk/friends/picker/shortlink/9%253Ae%253DtqCQDydL2n3q5w934%253D7Mu%253BI%252FKOjBgqPFak%255E08%253DMOoTcBg%2560R7%255D1eH8vfi%253BJlr"
+                            target="_black">
+                            <img src="img/icon_kakaotalk.svg">
+                        </a>
+                    </li>
+                    <li class="share_icons_m">
+                        <a href="https://accounts.kakao.com/login/kakaostory?continue=https%3A%2F%2Fstory.kakao.com%2Fshare%3Furl%3Dhttps%3A%2F%2Fkakao.ai%2F"
+                            target="_black">
+                            <img src="img/icon_kakaostory.png">
+                        </a>
+                    </li>
+                    <li class="share_icons_m">
+                        <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=911640245992316&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Ffeed%3Fapp_id%3D911640245992316%26display%3Dpopup%26link%3Dhttps%253A%252F%252Fkakao.ai%252F&cancel_url=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Freturn%2Fclose%3Ferror_code%3D4201%26error_message%3DUser%2Bcanceled%2Bthe%2BDialog%2Bflow%23_%3D_&display=popup&locale=ko_KR"
+                            target="_black">
+                            <img src="img/icon_facebook.svg">
+                        </a>
+                    </li>
+                    <li class="share_icons_m">
+                        <a href="https://twitter.com/intent/tweet?text=%27%EC%B9%B4%EC%B9%B4%EC%98%A4i%27&url=https://kakao.ai/"
+                            target="_black">
+                            <img src="img/icon_twitter.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="info_related_m">
+            <div class="info_related_m_tit">
+                <h3><a>관련 사이트</a></h3>
+                <div class="line_m_btn">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                </div>
+            </div>
+            <ul class="info_related_list_m">
+                <li>
+                    <a href="https://www.kakaoenterprise.com/" target="blank">Kakao Enterprise</a>
+                </li>
+                <li>
+                    <a href="https://tech.kakaoenterprise.com/" target="blank">Kakao Enterprise Teck Blog</a>
+                </li>
+                <li>
+                    <a href="https://i.kakao.com/" target="blank">Kakao i Developers</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_m_under">
+            <div class="copyright_m">
+                <small>© <a href="https://www.kakaoenterprise.com/" target="_blank">Kakao Enterprise.</a><br> The Kakao
+                    i is a trademark of Kakaocorp.</small>
+            </div>
+            <div class="btntop_m">
+                <button class="btn_click">
+                    <strong>↑</strong></button>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js" defer></script>
+
+</html>

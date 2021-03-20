@@ -1,0 +1,79 @@
+
+@font-face { 
+      font-family: 'AppleSDGothicNeo'; 
+      src: url(../font/AppleSDGothicNeoR.ttf) format('woff2');
+      font-weight: normal;
+      }
+ 
+@font-face { 
+      font-family: 'notosans'; 
+      src: url(../font/NotoSansKR-Medium.otf) format('woff2');
+      font-weight: 500;
+      }  
+ 
+@font-face {      
+      font-family: 'notosans'; 
+      src: url(../font/NotoSansKR-Bold.otf) format('woff2');
+      font-weight: 700;}          
+
+
+
+      body { font-family: 'notosans', 'AppleSDGothicNeo', sans-serif;  font-size: 14px; line-height: 1.5; font-weight: 400; letter-spacing: normal; color:rgb(102,102,102); -webkit-font-smoothing: antialiased; }
+
+      div, ul, li { background-size: cover; background-position: center center;}
+     
+      
+     
+      
+      h1 { font-family: 'notosans', 'AppleSDGothicNeo', sans-serif;  font-size: 14px; line-height: 1.5; font-weight: 700; letter-spacing: -1px; color: rgb(255,255,255); -webkit-font-smoothing: antialiased;
+       }
+      h2 {  
+      }
+      h3 { font-family: 'notosans', 'AppleSDGothicNeo', sans-serif;  font-size: 32px; line-height: 40.64px; font-weight: 700; letter-spacing: -0.5px; color:rgb(19,20,21)(102,102,102); -webkit-font-smoothing: antialiased;
+}
+      h4 { font-family: 'notosans', 'AppleSDGothicNeo', sans-serif; -webkit-font-smoothing: antialiased;
+      font-weight: 700;}
+      h5 {
+            
+       }
+      h6 { }
+      
+
+      p {font-family: 'notosans', 'AppleSDGothicNeo', sans-serif;-webkit-font-smoothing: antialiased; 
+      }
+      .hey {font-family: 'notosans', 'AppleSDGothicNeo', sans-serif; font-weight: 500;
+      }
+
+      span{font-family: 'mark','notosans','AppleSDGothicNeo', sans-serif;-webkit-font-smoothing: antialiased; font-weight: 500;
+       }
+      @media screen and (max-width:1068px) {
+      
+      
+      /* Text Style */
+      
+      h1 {   }
+      
+      h2 {  }
+      
+      h3 {   }
+      
+      h4 {   }
+      
+      h5 {   }
+      
+      h6 { }
+      
+      p {  }
+      
+           
+      }
+            
+            
+      @media screen and (max-width:740px) {
+      
+      h2 { }
+      
+      h3 {}
+      
+            
+      }
